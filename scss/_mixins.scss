@@ -1,0 +1,51 @@
+@mixin bolish($dspl-fl, $algn-itm){
+    display: flex;
+    align-items: center;
+}
+
+@mixin yozuvlar-uchun($t-rang, $fam, $fsiz, $f-stl, $f-wgt, $ln-hgt){
+    color: #1C3554;
+    font-family: Montserrat-semibold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+};
+@mixin btn-uchun($dsp, $pdn, $algn, $gp, $brd){
+    display: inline-flex;
+    padding: 8px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+};
+
+@mixin hbirlar($ff, $fs, $fst, $fwg, $fln){
+    font-family: Rubik;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+};
+
+@mixin lorplar($ffm, $fsz, $fstl, $fwgt, $flnhg){
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+};
+@mixin hikkilar($fnmr, $flm, $fsze, $fsty, $ftw, $fhgln){
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Rubik;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.984px;
+};
+@mixin cardyozuv($mns, $razm, $stil, $qal, $uz){
+    font-family: Montserrat-semiBold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+};
